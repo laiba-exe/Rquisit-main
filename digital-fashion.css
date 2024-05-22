@@ -1,0 +1,146 @@
+.digital-fashion-second{
+    width: 100%;
+    height: 120vh;
+}
+.df-second-container{
+    padding-top: 14em;
+    padding-left: 3em;
+    padding-right: 3em;
+    display: grid;
+    grid-template-columns: 1.75fr 1fr;
+    grid-template-rows: auto;
+}
+.df-left video{
+    width: 90%;
+    object-fit: cover;
+}
+.df-right span{
+    font-size: 4.5em;
+}
+.df-right h2{
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.df-right p{
+    font-size: 1.15em;
+    font-weight: 400;
+}
+
+
+
+.sea-bones-container{
+    width: 100%;
+    height: 70vh;
+}
+.sea-bones-container video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 70vh;
+    z-index: 10;
+    filter: brightness(.6);
+}
+.sea-bones-content{
+    position: relative;
+    left: 20%;
+    right: 20%;
+    padding: 12em 0;
+    z-index: 20;
+    color: white;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sea-bones-left strong{
+    font-size: 4em;
+    font-weight: 500;
+    padding-bottom: .5em;
+}
+.sea-bones-left p{
+    font-size: 1.75em;
+}
+.sea-bones-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sea-bones-right p{
+    font-size: 1.15em;
+}
+
+
+
+.product-card-main{
+    width: 100%;
+    height: 150vh;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    padding: 10em 20em;
+    grid-gap: 2em;
+}
+.product-container img{
+    width: 80%;
+    object-fit: cover;
+    border-radius: .5em;
+}
+.product-container a{
+    text-decoration: none;
+    color: 27201d;
+}
+.product-container h5{
+    padding: 1em 0;
+    font-size: 1.25em;
+}
+.product-container span{
+    font-size: 1.15em;
+}
+.product-container p{
+    font-size: 1.15em;
+    padding-bottom: 3.5em;
+}
+
+
+
+.digital-fashion-image{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.digital-fashion-image-main{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7%;
+    margin: 0 auto;
+    width: 75%;
+}
+.digital-fashion-image-fashion-line span{
+    font-size: 32px;
+    font-weight: 350;
+}
+.digital-fashion-image-second-image-container{ 
+    max-height: fit-content;
+    padding-bottom: 70px; 
+}
+.digital-fashion-image-second-images{
+    display: grid;
+}
+.digital-fashion-image-second-images{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 3rem auto;
+    width: 90%;
+    grid-gap: 1rem;
+}
+.digital-fashion-image-second-images img{
+    border-radius: 0.75rem;
+    min-height: 33rem;
+    object-fit: cover;
+    width: 100%;
+}
